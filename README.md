@@ -1,5 +1,11 @@
 <!-- ## TTGO T-Beam Tracker for The Things Network and/or The Helium Network  -->
-## TTGO T-Beam Tracker for use with a LoRaWan Networks
+## TTGO T-Beam Tracker for use with a LoRaWan Network (Helium)
+
+-------------
+
+** This well thought out README, orginal code, and the prior revisions of code all have great people behind this and I have only sought to copy and revise it further for my own personal amumsent and esthtics.  In no way do I claim to have created this code, or own it.   Proper gratitiude is given to all that has worked on this before and I am just the person that drunk the bottled water on the thron last. -Fizzy **
+
+-------------
 
 This code was originally developed for use on The Things Network (TTN) it has been editied/repurposed for use with the Helium Network.
 
