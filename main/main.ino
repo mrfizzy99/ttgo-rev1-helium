@@ -5,6 +5,7 @@
   - Enabled long press middle button to Discard Prefs by default for future troubleshooting on device.
   - Changed Text output to reflect Helium, and not TTL (Code referances ttn, just to prevent brakes in this awesome code)
   - Changed credentials file to use OTAA by default.
+  - Changed GPS metric output text "Error", to "Accuracy/HDOP".
 
 */
 /*
