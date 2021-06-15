@@ -54,7 +54,7 @@ void ttn_register(void (*callback)(uint8_t message));
 #define ALWAYS_SHOW_LOGO
 
 //Uncomment to enable discarding network settings by long pressing second button
-#define PREFS_DISCARD
+//#define PREFS_DISCARD
 
 // If you are having difficulty sending messages to TTN after the first successful send,
 // uncomment the next option and experiment with values (~ 1 - 5)
