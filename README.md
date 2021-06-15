@@ -6,7 +6,6 @@ This well thought out README, original code, and the prior versions of code all 
 Here are the changes to the code:
   - Added Helium Startup Logo
   - Changed App Name and Version of device to reflect more of a device name and number scheme.
-  - Enabled long press middle button to Discard Prefs by default for future troubleshooting on device.
   - Changed Text output to reflect Helium, and not TTN (Code referances ttn, just to prevent brakes in this awesome code)
   - Changed credentials file to use OTAA by default.
   - Changed GPS metric output text "Error", to "Accuracy/HDOP".
