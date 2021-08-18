@@ -97,6 +97,7 @@ static void gps_loop() {
         txBuffer[7] = altitudeGps & 0xFF;
         txBuffer[8] = hdopGps & 0xFF;
         txBuffer[9] = sats & 0xFF;
+        txBuffer[10] = axp.getBattVoltage()/1000.0;
     }
 
 #elif defined(PAYLOAD_USE_CAYENNE)
@@ -123,6 +124,7 @@ static void gps_loop() {
         txBuffer[8] = alt >> 16;
         txBuffer[9] = alt >> 8;
         txBuffer[10] = alt;
+        txBuffer[11] = axp.getBattVoltage()/1000.0;
     }
 
 #endif
