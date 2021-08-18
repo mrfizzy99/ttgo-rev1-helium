@@ -124,7 +124,6 @@ static void gps_loop() {
         txBuffer[8] = alt >> 16;
         txBuffer[9] = alt >> 8;
         txBuffer[10] = alt;
-        txBuffer[11] = axp.getBattVoltage()/1000.0;
     }
 
 #endif
