@@ -9,6 +9,7 @@ Here are the changes to the code:
   - Changed Text output to reflect Helium, and not TTN (Code referances ttn, just to prevent brakes in this awesome code)
   - Changed credentials file to use OTAA by default.
   - Changed GPS metric output text "Error", to "Accuracy/HDOP".
+  - Added Battery voltage level to encoder/decoded information
 
 In no way do I claim to have created this code, or own it. 
 Proper gratitude is given to all that has worked on this before; and I am just the person that drunk the bottled water sitting on the throne. 
