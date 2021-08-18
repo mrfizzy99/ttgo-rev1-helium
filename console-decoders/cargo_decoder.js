@@ -14,6 +14,8 @@ function Decoder(bytes, port) {
 
     decoded.hdop = bytes[8] / 10.0;
     decoded.sats = bytes[9];
+    decoded.battery = bytes[10];
+
 
     return decoded;
 }
